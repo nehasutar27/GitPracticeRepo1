@@ -35,6 +35,7 @@ public class FileUploadController implements ServletContextAware{
 				System.out.println("File Size: --"+file.getSize());
 				System.out.println("File Type: --"+file.getContentType());
 				System.out.println("-----------------------------------------------------");
+				System.out.println("-----------------------------------------------------Git practice");
 				save(file);
 			}
 			return new ResponseEntity<String>("Successfully Uploaded Files....!",HttpStatus.OK);
